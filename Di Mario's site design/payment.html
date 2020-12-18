@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="master.css">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&family=Oxygen&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+	
+    <title> Di Mario's Pizza </title>
+</head>
+
+<body>
+
+<div class="navbar">
+
+        <img src=2logo.png alt="logo" />
+        <a href="#contact">Contact us</a>
+        <a href="id.html">My Account</a>
+        <a href="basket.html">My Basket</a>
+        <a href="menu.html">Menu</a>
+
+    </div>
+
+    <div class="header">
+	
+        <div id="myNav" class="mobnavbar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="mobnavbar-content">
+                <a href="menu.html">Menu</a>
+                <a href="basket.html">My Basket</a>
+                <a href="id.html">My Account</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="span">
+            <span onclick="openNav()">&#9776;</span>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+
+    </div>
+
+	<div class="payment-form">
+	
+	<h3>Complete your payment information</h3>
+
+
+	<div class="saved-card">
+	
+		<h4> Saved Card </h4>
+	
+		<a class="button-card" href="#">
+			<p> Lauren Marie Shawn </p> 
+			<br> 
+			<p><i class="fa fa-cc-visa" style="color:navy;"></i> 0846 9587 4615 9874 </p>
+		</a>
+		
+		<p> + Add another card </p>
+		
+	</div>
+	
+	<div class="manual-card">
+	
+	<h4> Introduce your data manually </h4>
+	
+		<div class="payment-m">
+			
+			<label for="fname">Full Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Sarah Houston">
+				<br>
+			<label for="ccnum">Credit card number</label>
+				<input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+				<br>
+			<label for="expmonth">Exp Month</label>
+				<input type="text" id="expmonth" name="expmonth" placeholder="September">
+				<br>
+            <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+				<br>
+			<label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+				<br>
+		</div>
+			
+	</div>
+            
+	</div>
+    
+	<a class="footer" href="index.html">Pay</a>
+
+	
+</body>
