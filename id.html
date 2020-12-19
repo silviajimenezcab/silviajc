@@ -1,32 +1,32 @@
+<!DOCTYPE html>
 <html>
 
-<!DOCTYPE html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="master.css">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&family=Oxygen&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
 
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+	
     <title> Di Mario's Pizza </title>
 </head>
 
 <body>
 
-    <div class="navbar">
+<div class="navbar">
 
         <img src=2logo.png alt="logo" />
         <a href="contact.html">Contact us</a>
-        <a href="basket.html">My Account</a>
+        <a href="id.html">My Account</a>
         <a href="basket.html">My Basket</a>
         <a href="menu.html">Menu</a>
 
     </div>
 
     <div class="header">
-
+	
         <div id="myNav" class="mobnavbar">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="mobnavbar-content">
@@ -51,50 +51,51 @@
         </script>
 
     </div>
+
+	<div class="idform">
 	
-	<section>
+	<h3>Login or sing up to continue</h3>
+
+	<div class="id-box">
+	
+		<div class="id-new">
 		
-		<div class="main">
-		
-			<div class="claim">
-				<h1><b>Di Mario's Pizza</b></h1>
-				<hr>
-				<h5>Freshness & Quality</h5>
+			<h3><u>Create a New Account</u></h3>
 			
-			</div>
-			
-			<div class=text>
-			
-				<img src=healthypizza.jpg alt="healthypizza" />
+			<label for="fname"><i class="fa fa-user"></i> Full Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Sarah Houston">
+				<br>
+			<label for="mobile"><i class="fa fa-phone"></i> Phone</label><br>
+				<input type="text" id="mobile" name="Phone Number" placeholder="0894615786">
 				
-				<p>How do you want to get your pizza</p>
-				
-					<a class="button1" href="menu.html">DELIVERY</a>
-			
-					<a class="button2" href="menu.html">COLLECTION</a>
-				
-				<a href="menu.html"><p><u>I just want to check the menu</u></p></a>
-				
-			</div>
+			 <a class="button-new" href="payment.html">CONTINUE</a>
 		
 		</div>
 		
-		<div class="main2">
+		<div class="id-ex">
+		
+			<h3><u>Log in to continue</u></h3>
 			
-				<img src=mainpicture.png alt="langing img" />
+			<p>Access by placing your finger below</p>
 			
+			<div class="fingericon">
+				<a class='fas fa-fingerprint' href="payment.html"></a>
+			</div>
+			
+			<p>or introduce your phone number</p>
+			
+			<label for="mobile"><i class="fa fa-phone"></i> Phone</label>
+			<br>
+			
+				<input type="text" id="mobile" name="Phone Number" placeholder="0894615786">
+			
+				
 		</div>
+		
+	</div>
 	
-	</section>	
+	<a class="footer" href="payment.html">Checkout</a>
 
-	<div class="footer2">
-	  <ul>
-		<li><a href="contact.html">Contact Us</a></li>
-		<li><a href="contact.html">FAQ</a></li>
-		<li><a href="contact.html">About Us</a></li>
-	  </ul>
-	</div>	
-
+</div>
 	
 </body>
-</html>
